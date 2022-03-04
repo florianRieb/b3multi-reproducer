@@ -1,0 +1,17 @@
+{
+  "preview": {
+    "additionalPropagators": [
+      "b3multi"
+    ],
+    "captureHttpServerHeaders": {
+      "requestHeaders": [
+        "***"
+      ]
+    },
+    "captureHttpClientHeaders": {
+      "requestHeaders": [
+        "***"
+      ]
+    }
+  }
+}

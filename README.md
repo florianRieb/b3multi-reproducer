@@ -10,7 +10,7 @@ To demonstrate the B3 propagation with the azure applicationinsights-java agent.
 - SET APPLICATIONINSIGHTS_CONNECTION_STRING env variable for your AI instance.
 - SET OTEL_PROPAGATORS="tracecontext,b3multi,baggage" as env variable.
 - mvn package
-- java -jar  -javaagent:"<path-to>/applicationinsights-agent-3.3.0-BETA-SNAPSHOT.jar" target/b3multi-reproducer-0.0.1-SNAPSHOT.jar
+- java -javaagent:"<path-to>/applicationinsights-agent-3.3.0-BETA-SNAPSHOT.jar" -jar target/b3multi-reproducer-0.0.1-SNAPSHOT.jar
 
 
 ## send requests with b3 headers

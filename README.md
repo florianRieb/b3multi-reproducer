@@ -1,6 +1,11 @@
 # b3multi-reproducer
 To demonstrate the B3 propagation with the azure applicationinsights-java agent. 
 
+## prerequisites
+
+- An active azure subscription and a [Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor//app/app-insights-overview) instance
+- The current version of java and maven installed on your machine
+
 ## run as jar
 - SET APPLICATIONINSIGHTS_CONNECTION_STRING env variable for your AI instance.
 - SET OTEL_PROPAGATORS="tracecontext,b3multi,baggage" as env variable.
